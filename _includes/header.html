@@ -27,11 +27,14 @@
         <a aria-label="My Medium" target="_blank" href="https://medium.com/{{ site.medium_username }}"><i class="icon fa fa-medium" aria-hidden="true"></i></a>
         {% elsif site.medium_url %}
         <a aria-label="My Medium" target="_blank" href="https://{{ site.medium_url }}"><i class="icon fa fa-medium" aria-hidden="true"></i></a>
+        {% elsif site.spotify_username %}
+        <a aria-label="My Spotify" target="_blank" href="https://open.spotify.com/user/{{ site.spotify_username }}"><i class="icon fa fa-spotify" aria-hidden="true"></i></a>
         {% endif %}
+        <a aria-label="My CV" target="_blank" href="{{ '/BISIO_CV.pdf' }}"><i class="icon fa fa-address-card" aria-hidden="true"></i></a>
       </div>
       <div class="header-links">
         <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
       </div>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  <!-- <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> -->
 </div>
